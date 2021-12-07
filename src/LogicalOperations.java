@@ -13,20 +13,17 @@ public class LogicalOperations {
 
     public int checkThreeNumbersWithIf(int a, int b, int c)
     {
-        int max;
+        int max = 0;
         if (a > b && a > c)
             max = a;
         else if (a>b && a < c)
             max = c;
         else if (b>a && b > c)
             max = b;
-        else if (b>a && b < c) {
-            System.out.print("Cel mai mare numar este: " + c);
+        else if (b>a && b < c)
             max = c;
-        }
 
-
-        int max = Math.max(Math.max(a,b),c);
+        //int max = Math.max(Math.max(a,b),c);
         System.out.print("Cel mai mare numar este: "+ max);
         return max;
     }

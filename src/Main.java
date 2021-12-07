@@ -4,6 +4,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        JavaIntro.problema1();
+        JavaIntro.problema2();
+        JavaIntro.problema3();
+        JavaIntro.problema4();
         /*
         System.out.println("Hello");
         int x = 2;
@@ -21,8 +25,9 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         //int number = scan.nextInt();
         //op.checkNumberInterval(number);
-
-        System.out.print("Enter text: ");
+        System.out.println(" ");
+        System.out.println(" ");
+        System.out.println("Enter text: ");
         int a = scan.nextInt();
         int b = scan.nextInt();
         int c = scan.nextInt();
