@@ -19,6 +19,16 @@ public class Main {
         Calculator.problema8ConvertInchToM(d);
         Calculator.problema9ComputeSpeed(34569, 1, 10, 13);
 
+        System.out.println("Add number of stars:");
+        LogicalOperations op = new LogicalOperations();
+        Scanner scan = new Scanner(System.in);
+        //op.stars(scan.nextInt());
+        System.out.println("***************************************************");
+        System.out.println("Fibonacci:");
+        op.fib();
+        System.out.println("***************************************************");
+        System.out.println("CozaLozaWoza:");
+        op.CozaLozaWoza();
         /*
         System.out.println("Hello");
         int x = 2;
@@ -32,8 +42,9 @@ public class Main {
         System.out.print("Introdu numar nou:");
         int readInt = scan1.nextInt();
         System.out.println("valoare:" + calc.FahrenheitToCelsius(readInt));*/
-        LogicalOperations op = new LogicalOperations();
-        Scanner scan = new Scanner(System.in);
+//        LogicalOperations op = new LogicalOperations();
+//        Scanner scan = new Scanner(System.in);
+//        op.stars(scan.nextInt());
         //int number = scan.nextInt();
         //op.checkNumberInterval(number);
         System.out.println(" ");
